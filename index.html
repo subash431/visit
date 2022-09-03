@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>Adventure</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <img src="./img/menu.png" class="menu-btn" alt="">
+    </nav>
+    <header>
+        <div class="header__content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn1">Learn more</a>
+        </div>
+    </header>
+
+    <!-- events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img7.jpg" alt="">
+                <h4>Everest Camp Treck</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, magni ducimus? Facilis et porro libero laboriosam ut? Quae repudiandae praesentium debitis obcaecati perspiciatis ratione dolore. Est aperiam accusamus sunt maxime!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img9.jpg" alt="">
+                <h4>Everest Camp Treck</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, magni ducimus? Facilis et porro libero laboriosam ut? Quae repudiandae praesentium debitis obcaecati perspiciatis ratione dolore. Est aperiam accusamus sunt maxime!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- explore section -->
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptate quaerat nemo perspiciatis eligendi unde at in pariatur laborum quia natus, totam esse neque recusandae repellendus sint repellat culpa dolorem!</P>
+        <a href="#" class="ctn">Learn More</a>
+
+        </div>
+        
+    </section>
+
+    <!-- tour section -->
+    <section class="tour">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illo nesciunt veniam reprehenderit tenetur similique labore voluptate natus excepturi. A quod quia cumque alias nihil pariatur cum perspiciatis eaque odio!</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/bg.jpg" alt="">
+                    <img src="./img/img5.jpg" alt="">
+                    <img src="./img/img8.jpg" alt="">
+                    <img src="./img/img7.jpg" alt="">
+                   
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>123 Pokhara University, NY 10160, Pokhara, Nepal </p>
+        <p>Copyright &copy; 2022 Subash Pariyar</p>
+    </section>
+
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
